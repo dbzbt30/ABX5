@@ -1,0 +1,22 @@
+id: prosthetic-joint
+name: Prosthetic Joint Infection
+category: bone
+description: Infection involving a prosthetic joint
+notes:
+  - Requires multidisciplinary approach with orthopedics and infectious diseases
+  - Biofilm-active antibiotics often needed
+  - May require implant removal or debridement with implant retention (DAIR)
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.960Z'

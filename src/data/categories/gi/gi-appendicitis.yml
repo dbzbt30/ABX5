@@ -1,0 +1,21 @@
+id: gi-appendicitis
+name: Appendicitis
+category: gi
+description: Inflammation of the appendix, often due to infection
+notes:
+  - Surgical management is primary therapy
+  - Antibiotics as adjunct to surgery or for conservative management
+  - Duration ≤7 days after source control
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.959Z'

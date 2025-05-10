@@ -1,0 +1,21 @@
+id: skin-diabetic-foot
+name: Diabetic Foot Infection
+category: skin
+description: Infection in a foot wound in a patient with diabetes
+notes:
+  - Classify by severity (mild, moderate, severe)
+  - Consider osteomyelitis if bone exposed or probe-to-bone test positive
+  - Multidisciplinary approach recommended
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.958Z'

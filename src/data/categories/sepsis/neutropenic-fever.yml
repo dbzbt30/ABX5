@@ -1,0 +1,22 @@
+id: neutropenic-fever
+name: Neutropenic Fever
+category: sepsis
+description: Fever in a patient with neutropenia (ANC <500)
+notes:
+  - Immediate broad-spectrum antibiotics are essential
+  - Assess risk (high vs. low) to guide management
+  - Consider antifungal therapy if persistent fever >96 hours
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.961Z'

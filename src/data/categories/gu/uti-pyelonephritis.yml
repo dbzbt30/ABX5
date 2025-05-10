@@ -1,0 +1,21 @@
+id: uti-pyelonephritis
+name: Acute Pyelonephritis
+category: gu
+description: Infection of the kidney and renal pelvis
+notes:
+  - Consider outpatient management for mild cases
+  - Hospitalize if severe illness, inability to tolerate oral intake, or complicating factors
+  - Adjust therapy based on urine culture results
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.956Z'

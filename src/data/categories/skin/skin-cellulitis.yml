@@ -1,0 +1,21 @@
+id: skin-cellulitis
+name: Cellulitis
+category: skin
+description: Infection of the skin and subcutaneous tissue
+notes:
+  - Non-purulent cellulitis is usually caused by streptococci
+  - Purulent cellulitis may indicate S. aureus (including MRSA)
+  - Duration typically 5-7 days for uncomplicated cases
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.957Z'

@@ -1,0 +1,22 @@
+id: pericarditis
+name: Infectious Pericarditis
+category: cardio
+description: Infection of the pericardial sac
+notes:
+  - Consider drainage for purulent pericarditis
+  - Tuberculosis is an important cause globally
+  - Echocardiography to assess for tamponade
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.961Z'

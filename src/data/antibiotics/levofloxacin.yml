@@ -1,0 +1,73 @@
+id: levofloxacin
+name: Levofloxacin
+class: Fluoroquinolone
+spectrum:
+  plus:
+    - Streptococcus pneumoniae
+    - Haemophilus influenzae
+    - Moraxella catarrhalis
+    - Mycoplasma pneumoniae
+    - Legionella species
+    - Chlamydophila pneumoniae
+    - Many Gram-negative bacteria
+  minus:
+    - MRSA
+    - Most anaerobes
+    - Some Enterococcus species
+stewardshipTier: Watch
+
+adultDosing:
+  cap:
+    dose: 750mg
+    route: IV/PO
+    frequency: q24h
+    duration: 5 days
+    notes:
+      - Excellent bioavailability allows early IV to PO conversion
+      - Take on empty stomach
+  sinusitis:
+    dose: 500mg
+    route: PO
+    frequency: q24h
+    duration: 5-7 days
+  complicated_uti:
+    dose: 750mg
+    route: IV/PO
+    frequency: q24h
+    duration: 5-7 days
+
+renalAdjustment:
+  note: Reduce dose based on CrCl - 750mg q48h if CrCl 20-49 mL/min, 750mg initial then 500mg q48h if CrCl <20 mL/min
+
+hepaticAdjustment: No adjustment needed
+
+pkpd:
+  halfLife: 6-8 hours
+  vd: 1.1 L/kg
+  proteinBinding: 24-38%
+  concentration: Good tissue penetration
+
+adverseEffects:
+  - Tendon rupture (especially with corticosteroids)
+  - QT prolongation
+  - CNS effects (headache, dizziness)
+  - GI upset
+  - C. difficile infection
+  - Dysglycemia
+
+monitoring:
+  - Clinical response
+  - Tendon pain/inflammation
+  - QT interval if risk factors
+  - Blood glucose in diabetics
+  - Renal function
+
+pregnancy: Category C
+cost: $$
+
+references:
+  - Sanford Guide to Antimicrobial Therapy 2024
+  - Clinical Antimicrobial Prescribing Guide 2024
+  - Local Antibiogram 2024
+
+lastUpdated: 2024-03-20 

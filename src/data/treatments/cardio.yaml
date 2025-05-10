@@ -1,0 +1,21 @@
+categoryId: cardio
+empiricLogic: For native valve endocarditis, empiric therapy with vancomycin plus ceftriaxone is recommended pending blood cultures. For prosthetic valve endocarditis, add rifampin and gentamicin. Adjust therapy based on culture results and consult infectious diseases.
+treatments:
+  - conditionId: endocarditis
+    firstLine: []
+    notes:
+      - Obtain at least 3 sets of blood cultures before starting antibiotics
+      - Echocardiography (preferably TEE) is essential for diagnosis
+      - Consult infectious diseases and cardiac surgery
+  - conditionId: myocarditis
+    firstLine: []
+    notes:
+      - Viral etiology most common
+      - Bacterial causes rare but require appropriate antibiotics
+      - Supportive care is the mainstay of treatment
+  - conditionId: pericarditis
+    firstLine: []
+    notes:
+      - Consider drainage for purulent pericarditis
+      - Tuberculosis is an important cause globally
+      - Echocardiography to assess for tamponade

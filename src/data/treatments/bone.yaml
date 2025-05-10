@@ -1,0 +1,21 @@
+categoryId: bone
+empiricLogic: For acute osteomyelitis, cover Staphylococcus aureus with cefazolin or cloxacillin IV. For diabetic foot osteomyelitis, broader coverage including gram-negatives and anaerobes is often needed. Septic arthritis requires urgent joint washout and IV antibiotics targeting S. aureus.
+treatments:
+  - conditionId: osteomyelitis
+    firstLine: []
+    notes:
+      - Obtain bone cultures when possible before starting antibiotics
+      - Prolonged therapy (4-6 weeks) typically required
+      - Consider surgical debridement for chronic osteomyelitis
+  - conditionId: septic-arthritis
+    firstLine: []
+    notes:
+      - Surgical drainage or arthroscopic washout often necessary
+      - Staphylococcus aureus is the most common pathogen
+      - Gonococcal arthritis should be considered in sexually active young adults
+  - conditionId: prosthetic-joint
+    firstLine: []
+    notes:
+      - Requires multidisciplinary approach with orthopedics and infectious diseases
+      - Biofilm-active antibiotics often needed
+      - May require implant removal or debridement with implant retention (DAIR)

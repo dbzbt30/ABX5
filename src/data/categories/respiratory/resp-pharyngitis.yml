@@ -1,0 +1,64 @@
+id: resp-pharyngitis
+name: Acute Pharyngitis
+category: respiratory
+description: Inflammation of the pharynx, commonly known as sore throat
+notes:
+  - Most cases are viral and self-limiting
+  - Test for Group A Strep in appropriate patients using rapid antigen test or culture
+  - Consider using Centor/McIsaac score to guide testing
+empiricLogic: First-line therapy is penicillin V or amoxicillin for Group A Strep. For patients with penicillin allergy, use alternative agents.
+filters:
+  applicable:
+    allergies: [penicillin, cephalosporin]
+    setting: [outpatient]
+    populations: [pregnancy]
+treatmentLines:
+  first_line:
+    adult:
+      standard:
+        regimen: Penicillin V
+        route: PO
+        dosing: "500mg BID"
+        duration: "10 days"
+        notes:
+          - "Amoxicillin 500mg BID is an acceptable alternative"
+      penicillin_allergy:
+        regimen: Azithromycin
+        route: PO
+        dosing: "500mg on day 1, then 250mg daily"
+        duration: "5 days"
+    pediatric:
+      standard:
+        regimen: Penicillin V
+        route: PO
+        dosing: "<27kg: 250mg BID-TID; ≥27kg: 500mg BID-TID"
+        duration: "10 days"
+        notes:
+          - "Amoxicillin 50mg/kg/day (max 1000mg/day) divided BID is an acceptable alternative"
+      penicillin_allergy:
+        regimen: Azithromycin
+        route: PO
+        dosing: "12mg/kg (max 500mg) on day 1, then 6mg/kg (max 250mg) daily"
+        duration: "5 days"
+  second_line:
+    adult:
+      treatment_failure:
+        regimen: Cephalexin
+        route: PO
+        dosing: "500mg BID"
+        duration: "10 days"
+        notes:
+          - "For non-anaphylactic penicillin allergy"
+    pediatric:
+      treatment_failure:
+        regimen: Cephalexin
+        route: PO
+        dosing: "25-50mg/kg/day divided BID"
+        duration: "10 days"
+        notes:
+          - "Maximum 1000mg/day"
+          - "For non-anaphylactic penicillin allergy"
+references:
+  - IDSA Clinical Practice Guidelines
+  - American Academy of Pediatrics Red Book
+lastUpdated: '2024-03-20T18:18:07.956Z'

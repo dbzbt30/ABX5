@@ -1,0 +1,33 @@
+categoryId: skin
+empiricLogic: 'For cellulitis (non-purulent): first-line cephalexin or cloxacillin (PO) targeting streptococci; if purulent or MRSA risk, use TMP-SMX or doxycycline (outpatient) or vancomycin IV (inpatient). Duration is ~5 days for uncomplicated cases.'
+treatments:
+  - conditionId: skin-cellulitis
+    firstLine: []
+    notes:
+      - Non-purulent cellulitis is usually caused by streptococci
+      - Purulent cellulitis may indicate S. aureus (including MRSA)
+      - Duration typically 5-7 days for uncomplicated cases
+  - conditionId: skin-abscess
+    firstLine: []
+    notes:
+      - Incision and drainage is primary therapy
+      - Antibiotics indicated for systemic symptoms, extensive disease, or high-risk location
+      - Consider MRSA coverage if prevalent in community
+  - conditionId: skin-impetigo
+    firstLine: []
+    notes:
+      - Topical mupirocin for limited disease
+      - Oral antibiotics for extensive or systemic disease
+      - Group A streptococci and S. aureus are common pathogens
+  - conditionId: skin-necrotizing
+    firstLine: []
+    notes:
+      - Surgical emergency requiring immediate debridement
+      - Broad-spectrum antibiotics including clindamycin for toxin suppression
+      - High mortality if treatment delayed
+  - conditionId: skin-diabetic-foot
+    firstLine: []
+    notes:
+      - Classify by severity (mild, moderate, severe)
+      - Consider osteomyelitis if bone exposed or probe-to-bone test positive
+      - Multidisciplinary approach recommended

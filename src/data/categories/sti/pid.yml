@@ -1,0 +1,22 @@
+id: pid
+name: Pelvic Inflammatory Disease
+category: sti
+description: Infection of the upper female genital tract
+notes:
+  - Empiric therapy should cover N. gonorrhoeae, C. trachomatis, and anaerobes
+  - Hospitalize if severe illness, pregnancy, or inability to tolerate oral therapy
+  - Screen and treat partners
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.961Z'

@@ -1,0 +1,22 @@
+id: septic-shock
+name: Septic Shock
+category: sepsis
+description: Sepsis with hypotension requiring vasopressors
+notes:
+  - Immediate broad-spectrum antibiotics within 1 hour
+  - Source control if applicable
+  - Aggressive fluid resuscitation and vasopressor support
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Surviving Sepsis Campaign guidelines
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.962Z'

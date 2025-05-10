@@ -1,0 +1,22 @@
+id: gi-cdiff
+name: C. difficile Infection
+category: gi
+description: Infection of the colon caused by Clostridioides difficile
+notes:
+  - 'First-line: oral vancomycin or fidaxomicin'
+  - Metronidazole reserved for mild cases if other options unavailable
+  - Avoid unnecessary antibiotics to prevent recurrence
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Choosing Wisely Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.960Z'

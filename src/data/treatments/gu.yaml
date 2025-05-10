@@ -1,0 +1,27 @@
+categoryId: gu
+empiricLogic: For uncomplicated UTI (cystitis) in a non-pregnant female, first-line options are nitrofurantoin (5 days), TMP-SMX (3 days), or fosfomycin (single dose). Avoid fluoroquinolones for uncomplicated cystitis to reduce resistance. Pyelonephritis or complicated UTI warrants fluoroquinolone or IV ceftriaxone, with 7–10 days total therapy.
+treatments:
+  - conditionId: uti-cystitis
+    firstLine: []
+    notes:
+      - Nitrofurantoin contraindicated if CrCl <30 mL/min
+      - TMP-SMX should be avoided if local E. coli resistance >20%
+      - Avoid fluoroquinolones for uncomplicated UTI
+  - conditionId: uti-pyelonephritis
+    firstLine: []
+    notes:
+      - Consider outpatient management for mild cases
+      - Hospitalize if severe illness, inability to tolerate oral intake, or complicating factors
+      - Adjust therapy based on urine culture results
+  - conditionId: uti-complicated
+    firstLine: []
+    notes:
+      - Includes UTI in males, pregnant women, and patients with catheters or abnormal urinary tract
+      - Broader spectrum coverage often required
+      - Longer duration of therapy (7-14 days)
+  - conditionId: prostatitis
+    firstLine: []
+    notes:
+      - Requires antibiotics with good prostate penetration
+      - Extended duration of therapy (2-4 weeks)
+      - Consider urologic evaluation for complications

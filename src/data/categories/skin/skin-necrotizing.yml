@@ -1,0 +1,22 @@
+id: skin-necrotizing
+name: Necrotizing Fasciitis
+category: skin
+description: Severe infection of the fascia with rapid tissue destruction
+notes:
+  - Surgical emergency requiring immediate debridement
+  - Broad-spectrum antibiotics including clindamycin for toxin suppression
+  - High mortality if treatment delayed
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.958Z'

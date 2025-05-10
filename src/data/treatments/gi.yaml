@@ -1,0 +1,27 @@
+categoryId: gi
+empiricLogic: For intra-abdominal sepsis (e.g. perforated appendicitis), use broad anaerobic and Gram-negative coverage such as piperacillin-tazobactam or meropenem (if critically ill). For community mild/moderate intra-abdominal infections, a combination like ceftriaxone + metronidazole is first-line.
+treatments:
+  - conditionId: gi-appendicitis
+    firstLine: []
+    notes:
+      - Surgical management is primary therapy
+      - Antibiotics as adjunct to surgery or for conservative management
+      - Duration ≤7 days after source control
+  - conditionId: gi-diverticulitis
+    firstLine: []
+    notes:
+      - Uncomplicated cases may be managed with oral antibiotics
+      - Complicated cases (abscess, perforation) require IV antibiotics and possible intervention
+      - Cover enteric gram-negative bacilli and anaerobes
+  - conditionId: gi-cholangitis
+    firstLine: []
+    notes:
+      - Biliary drainage is essential (ERCP, percutaneous, surgical)
+      - Empiric antibiotics should cover enteric gram-negatives and anaerobes
+      - Adjust therapy based on blood and bile cultures
+  - conditionId: gi-cdiff
+    firstLine: []
+    notes:
+      - 'First-line: oral vancomycin or fidaxomicin'
+      - Metronidazole reserved for mild cases if other options unavailable
+      - Avoid unnecessary antibiotics to prevent recurrence

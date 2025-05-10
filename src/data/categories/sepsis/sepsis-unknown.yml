@@ -1,0 +1,22 @@
+id: sepsis-unknown
+name: Sepsis of Unknown Source
+category: sepsis
+description: Sepsis without a clear focus of infection
+notes:
+  - Obtain cultures before antibiotics if possible
+  - Broad empiric coverage based on likely sources
+  - De-escalate therapy once source identified and cultures available
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+  - Sanford Guide Canada
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.961Z'

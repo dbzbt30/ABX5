@@ -1,0 +1,67 @@
+id: resp-otitis
+name: Acute Otitis Media
+category: respiratory
+description: Middle ear infection, common in children
+notes:
+  - Don't prescribe antibiotics in vaccinated children >6 months and adults unless specific criteria are met
+  - 'Duration: 10 days for <2 years old, 5 days for ≥2 years old'
+  - Consider watchful waiting in children >6 months with mild symptoms
+  - Treat all children <6 months with AOM
+empiricLogic: First-line therapy is amoxicillin. For patients with penicillin allergy or treatment failure, use alternative agents.
+filters:
+  applicable:
+    allergies: [penicillin, cephalosporin]
+    setting: [outpatient]
+    populations: [pregnancy]
+treatmentLines:
+  first_line:
+    adult:
+      standard:
+        regimen: Amoxicillin
+        route: PO
+        dosing: 500mg TID
+        duration: 5-7 days
+        notes:
+          - Consider watchful waiting in healthy adults with mild symptoms
+      penicillin_allergy:
+        regimen: Azithromycin
+        route: PO
+        dosing: 500mg on day 1, then 250mg daily
+        duration: 5 days
+    pediatric:
+      standard:
+        regimen: Amoxicillin
+        route: PO
+        dosing: 80-90mg/kg/day divided TID
+        duration: 10 days for <2 years, 5-7 days for ≥2 years
+        notes:
+          - Maximum 3000mg/day
+          - Consider high-dose (90mg/kg/day) in areas with high pneumococcal resistance
+      penicillin_allergy:
+        regimen: Azithromycin
+        route: PO
+        dosing: 10mg/kg on day 1, then 5mg/kg daily
+        duration: 5 days
+        notes:
+          - Maximum 500mg on day 1, then 250mg daily
+  second_line:
+    adult:
+      treatment_failure:
+        regimen: Amoxicillin-Clavulanate
+        route: PO
+        dosing: 875/125mg BID
+        duration: 7-10 days
+    pediatric:
+      treatment_failure:
+        regimen: Amoxicillin-Clavulanate
+        route: PO
+        dosing: 90mg/kg/day amoxicillin component divided BID
+        duration: 10 days
+        notes:
+          - Maximum 4000mg amoxicillin component per day
+          - Consider adding coverage for H. influenzae and M. catarrhalis
+references:
+  - American Academy of Pediatrics Clinical Practice Guideline 2013
+  - Canadian Pediatric Society guidelines
+  - Choosing Wisely Canada
+lastUpdated: '2024-03-20T18:18:07.956Z'

@@ -1,0 +1,36 @@
+categoryId: respiratory
+empiricLogic: For community-acquired pneumonia in a previously healthy adult, first-line is high-dose amoxicillin (to cover pneumococcus); add a macrolide (azithromycin) or use doxycycline to cover atypicals if needed. Comorbid patients or inpatient CAP require β-lactam + macrolide or a respiratory fluoroquinolone (reserved for beta-lactam allergy or second-line).
+treatments:
+  - conditionId: pneumonia-cap
+    firstLine: []
+    notes:
+      - Duration is typically 5 days if clinically stable
+      - Reserve fluoroquinolones as last-line therapy
+      - Consider severity assessment using CURB-65 or PSI
+  - conditionId: pneumonia-hap
+    firstLine: []
+    notes:
+      - Consider local antibiogram for empiric therapy
+      - Assess risk for multidrug-resistant organisms
+      - De-escalate therapy based on culture results
+  - conditionId: pneumonia-aspiration
+    firstLine: []
+    notes:
+      - Cover oral anaerobes (e.g. amoxicillin-clavulanate or clindamycin)
+      - Consider risk factors for resistant organisms
+  - conditionId: resp-pharyngitis
+    firstLine: []
+    notes:
+      - Confirm with rapid strep test or throat culture when possible
+      - Penicillin or amoxicillin for 10 days is first-line
+      - Macrolides if penicillin-allergic
+  - conditionId: resp-sinusitis
+    firstLine: []
+    notes:
+      - Most cases are viral and do not require antibiotics
+      - Consider antibiotics if symptoms >10 days, severe symptoms, or worsening pattern
+  - conditionId: resp-otitis
+    firstLine: []
+    notes:
+      - Don't prescribe antibiotics in vaccinated children >6 months and adults unless specific criteria are met
+      - 'Duration: 10 days for <2 years old, 5 days for ≥2 years old'

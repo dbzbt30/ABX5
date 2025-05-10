@@ -1,0 +1,21 @@
+id: gi-diverticulitis
+name: Diverticulitis
+category: gi
+description: Inflammation of diverticula in the colon
+notes:
+  - Uncomplicated cases may be managed with oral antibiotics
+  - Complicated cases (abscess, perforation) require IV antibiotics and possible intervention
+  - Cover enteric gram-negative bacilli and anaerobes
+references:
+  - Bugs & Drugs guide to antimicrobial therapy
+first_line:
+  adult:
+    standard:
+      regimen: No standard regimen available
+      dosing: Consult infectious diseases
+      duration: Duration based on clinical response
+      notes:
+        - Please consult infectious diseases for guidance
+  settings:
+    - outpatient
+lastUpdated: '2025-05-07T18:18:07.959Z'
